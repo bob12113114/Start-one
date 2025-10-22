@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.links-a {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "BBH Sans Bartle", sans-serif;
+}
+
+a :hover {
+    box-shadow: 55px 5px 10px 2px rgba(300, 0, 4000, 0.3);
+}
+
+.links-a :hover {
+    box-shadow: -5px 5px 10px 2px rgba(500, 0, 1000, 0.3);
+
+}
+
